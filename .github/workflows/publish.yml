@@ -18,6 +18,14 @@ jobs:
       - name: Build
         run: ./build.sh
 
+      - name: Converts Markdown to HTML
+        uses: jaywcjlove/markdown-to-html-cli@main
+        with:
+          source: index.md
+          output: out/index.html
+          github-corners: https://github.com/shinwookim/CSXXXX-2234-Recitation
+          favicon: data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>
+
       - name: Push
         uses: s0/git-publish-subdir-action@develop
         env:
