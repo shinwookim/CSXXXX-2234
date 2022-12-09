@@ -4,6 +4,6 @@ mkdir out
 for s in $SRC; 
 do
     echo "$s"
-    marp --theme ./src/theme/pitt.css $s --html -o ./out/$(basename "$s" | sed 's/\(.*\)\..*/\1/').html
+    npx @marp-team/marp-cli@latest --theme ./src/theme/pitt.css $s --html -o ./out/$(basename "$s" | sed 's/\(.*\)\..*/\1/').html
 done
 
