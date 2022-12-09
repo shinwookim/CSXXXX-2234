@@ -12,9 +12,6 @@ jobs:
       - name: git-checkout
         uses: actions/checkout@v2
 
-      - name: Install all dependencies
-        run: npm install
-
       - name: Install Marp
         run: npm install --save-dev @marp-team/marp-cli
 
