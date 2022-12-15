@@ -3,7 +3,7 @@
 @import "default";
 
 :root {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: futura,Helvetica, arial, sans-serif;
   --beamer-main: #003594;
   --beamer-secondary: #FFB81C;
 }
@@ -48,7 +48,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* only apply to the first occurrence of h1 */
 h1:nth-of-type(1) {
-  font-family: "CMU Bright", "Segoe UI Semibold";
+  /*font-family: "CMU Bright", "Segoe UI Semibold";*/
+  font-family: futura, arial, sans-serif;
   color: #ffffff;
   background-color: var(--beamer-main);
   padding: 0;
@@ -109,7 +110,8 @@ section.title>h1 {
 }
 section.title>h2 {
   position: relative;
-  font-family: "CMU Bright", "Segoe UI Semibold";
+  /*font-family: "CMU Bright", "Segoe UI Semibold";*/
+  font-weight: normal;
   margin-top: 1%;
   color: #000000;
   background-color: transparent;
@@ -124,6 +126,7 @@ section.title>h2 {
 section.title>p {
   position: relative;
   margin-right: auto;
+  font-family: futura;
 }
 
 section.title{
