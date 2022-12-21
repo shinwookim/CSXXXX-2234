@@ -97,7 +97,11 @@ img[alt~="center"] {
 /* <!-- _class: title --> */
 section.title>h1 {
   position: relative;
-  font-family: "CMU Bright", "Segoe UI Semibold";
+  font-family: futura, arial, sans-serif;
+  font-weight: normal;
+  /*font-family: "CMU Bright", "Segoe UI Semibold";
+
+  */
   font-size: 200%;
   color: #000000;
   background-color: transparent;
