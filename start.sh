@@ -1,0 +1,1 @@
+npx @marp-team/marp-cli@latest --theme ./src/theme/pitt.css $s --html -s ./
